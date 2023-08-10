@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+   
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 30px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar {
+  background-color: #006400;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("BreakingBadImagens/bb-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  height: 100%;
+}
+
+.nav-bar a {
+  color: #ffffff;
+  font-size: large;
+  letter-spacing: 2px;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  margin-left: 5px;
+  display: flex;
+  gap: 2rem;
+}
+
+.main-container {
+ color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("BreakingBadImagens/bb-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.video-intro {
+  padding-top: 50px;
+}
+
+.sinopse {
+  width: 600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.video-temporada-1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container {
+  background-color: #006400;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  background-image: url("BreakingBadImagens/bb-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  background-color: white;
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+}
+
+.footer-col {
+  width: 100%;
+  padding: 0 10px;
+}
+
+h4 {
+  font-size: 18px;
+  color:#ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: white;
+  height: 2px;
+  box-sizing: border-box;
+  width: 65px;
+}
+
+a:hover {
+  color: #06f706;
+  padding-left: 8px;
+}
+
+.social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  margin: 0 20px 20px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #006400;
+  transition: all 0.5s ease;
+}
